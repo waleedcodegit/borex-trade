@@ -10,7 +10,7 @@ export default class Footer extends Component {
             <div className="footerCol">
               <img
                 className="footerLogo"
-                src="/img/logo-light.png"
+                src="/img/logo (1).png"
                 alt="image"
               ></img>
               <h3 className="footerTitle text-light">Registered Office</h3>

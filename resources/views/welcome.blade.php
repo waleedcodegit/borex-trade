@@ -73,7 +73,7 @@ s0.parentNode.insertBefore(s1,s0);
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
  <!-- Javascript -->
     <script src="/js/vendors/uikit.min.js"></script>
-    <script src="/js/vendors/blockit.min.js"></script>
+    {{-- <script src="/js/vendors/blockit.min.js"></script> --}}
     <script src="/js/config-theme.js"></script>
 </body>
 

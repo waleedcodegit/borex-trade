@@ -160,13 +160,13 @@ import Landing from "./HomePage/Landing";
           <Route path="/no-deposit" component={NewPromo35PerB}></Route>
           {/* <Route path="/platform/mt5" component={PlatformMT5}></Route> */}
           {/* <Route path="/PAMM" component={PAMMpage}></Route> */}
-          <Route path="/our-location" component={OurLocationPage}></Route>
-          <Route path="/cookie-policy" component={CookiePolicy}></Route>
-          <Route path="/regulatory-compliance" component={CompliancePage}></Route>
+          {/* <Route path="/our-location" component={OurLocationPage}></Route> */}
+          {/* <Route path="/cookie-policy" component={CookiePolicy}></Route> */}
+          {/* <Route path="/regulatory-compliance" component={CompliancePage}></Route>
           <Route path="/privacy-policy" component={PrivacyPolicy}></Route>
-          <Route path="/risk-disclouser" component={RiskPage}></Route>
+          <Route path="/risk-disclouser" component={RiskPage}></Route> */}
           {/* <Route path="/instruction-security" component={SafetyOfFunds}></Route> */}
-          <Route path="/terms-and-condition" component={TermsAndCondition}></Route>
+          {/* <Route path="/terms-and-condition" component={TermsAndCondition}></Route> */}
           <Route
             path="/deposite-withdraw"
             component={DepositWithdrawPage}

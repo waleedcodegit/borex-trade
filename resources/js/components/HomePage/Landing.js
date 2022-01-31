@@ -5,235 +5,127 @@ class Landing extends Component {
         return (
             <div>
                 {/* slideshow content begin */}
-                <div className="uk-section uk-padding-remove-vertical">
-                    <div className="uk-light in-slideshow uk-background-cover uk-background-top-center" style={{ backgroundImage: 'url(img/in-liquid-slide-bg.png)' }} data-uk-slideshow>
-                        <ul className="uk-slideshow-items" style={{height:'780px'}}>
-                            <li>
-                                <div className="uk-container">
-                                    <div className="uk-grid-medium" data-uk-grid>
-                                        <div className="uk-width-1-2@s">
-                                            <div className="uk-overlay mt-5">
-                                                <h1>Crypto options And crypto trading with a trusted broker.</h1>
-                                                <p className="uk-text-lead uk-visible@m">Trade forex, commodities, synthetic and stock indices from a single account</p>
-                                                <a href="https://secure.alawalmarkets.com/#/auth/login" className="uk-button uk-button-default uk-border-rounded  mr-2">Login</a>
-                                                <a href="https://secure.alawalmarkets.com/#/auth/signup" class="uk-button uk-button-default uk-border-rounded">Create Account</a>
-                                            </div>
-                                        </div>
-                                        <div className="uk-width-1-2@s">
-                                            <img className="in-slide-img" src="/img/2.svg" data-src="/img/2.svg" alt="image-slide" width={500} height={400}  />
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            {/* <li>
-                                <div className="uk-container">
-                                    <div className="uk-grid-medium" data-uk-grid>
-                                        <div className="uk-width-1-2@s">
-                                            <div className="uk-overlay mt-5">
-                                                <h1>Award-winning trading platforms.</h1>
-                                                <p className="uk-text-lead uk-visible@m">Explore endless trading opportunities with tight spreads and no commission</p>
-                                                <a href="#" className="uk-button uk-button-default uk-border-rounded uk-visible@s">Login</a>
-                                                <a href="#" class="uk-button uk-button-primary uk-border-rounded">Create Account</a>
-                                            </div>
-                                        </div>
-                                        <div className="uk-width-1-2@s">
-                                            <img className="in-slide-img" src="/img/3.svg" data-src="/img/3.svg" alt="image-slide" width={500} height={400}  />
-                                        </div>
-                                    </div>
-                                </div>
-                            </li> */}
-                        </ul>
-                        <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous" />
-                        <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next" />
-                        {/* <div className="uk-section uk-padding-remove-vertical in-slideshow-features uk-visible@m">
-                            <div className="uk-container">
-                                <div className="uk-grid uk-flex uk-flex-center">
-                                    <div className="uk-width-5-6@m pt-5">
-                                        <div className="uk-grid uk-child-width-1-6@m uk-text-center" data-uk-grid>
-                                            <div className="uk-width-1-1">
-                                                <p className="uk-text-lead">Why Trade with Al Awal Markets</p>
-                                            </div>
-                                            <div className="slide-icons-1">
-                                                <img src="img/in-lazy.gif" data-src="img/in-liquid-icon-5.svg" alt="sample-icon" width={48} height={48} data-uk-img />
-                                                <a className="uk-button uk-button-text uk-align-center" href="#">Swap Free
-Account</a>
-                                            </div>
-                                            <div className="slide-icons-1">
-                                                <img src="img/in-lazy.gif" data-src="img/in-liquid-icon-6.svg" alt="sample-icon" width={48} height={48} data-uk-img />
-                                                <a className="uk-button uk-button-text uk-align-center" href="#"><span>24/5 multilingual </span>
-customer support<i className="fas fa-angle-right uk-margin-small-left" /></a>
-                                            </div>
-                                            <div className="slide-icons-1">
-                                                <img src="img/in-lazy.gif" data-src="img/in-liquid-icon-7.svg" alt="sample-icon" width={48} height={48} data-uk-img />
-                                                <a className="uk-button uk-button-text uk-align-center" href="#">Crypto<i className="fas fa-angle-right uk-margin-small-left" /></a>
-                                            </div>
-                                            <div className="slide-icons-1">
-                                                <img src="img/in-lazy.gif" data-src="img/in-liquid-icon-8.svg" alt="sample-icon" width={48} height={48} data-uk-img />
-                                                <a className="uk-button uk-button-text uk-align-center" href="#">Shares<i className="fas fa-angle-right uk-margin-small-left" /></a>
-                                            </div>
-                                            <div className="slide-icons-1">
-                                                <img src="img/in-lazy.gif" data-src="img/in-liquid-icon-9.svg" alt="sample-icon" width={48} height={48} data-uk-img />
-                                                <a className="uk-button uk-button-text uk-align-center" href="#">Commodities<i className="fas fa-angle-right uk-margin-small-left" /></a>
-                                            </div>
-                                            <div className="slide-icons-1">
-                                                <img src="img/in-lazy.gif" data-src="img/in-liquid-icon-10.svg" alt="sample-icon" width={48} height={48} data-uk-img />
-                                                <a className="uk-button uk-button-text uk-align-center" href="#">All Markets<i className="fas fa-angle-right uk-margin-small-left" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-                         <div className="container-fluid">
-              <div className="row tradeWithRow ">
-                <div className="col-12 ">
-                  <h3 className="tradeWithTitle">Why Trade with Al Awal Markets </h3>
-                  {/* <p className="tradeWithText">
-                  Trade multiple financial products with the most reliable Forex Broker
-                  </p> */}
-                </div>
+           <div className="uk-section uk-padding-remove-vertical">
+  <div className="uk-light in-slideshow uk-background-cover uk-background-top-center" style={{backgroundImage: 'url(img/sliderbackground.png)'}} data-uk-slideshow>
+    <ul className="uk-slideshow-items">
+      <li>
+        <div className="uk-container">
+          <div className="uk-grid-medium" data-uk-grid>
+            <div className="uk-width-1-2@s">
+              <div className="uk-overlay">
+                <h2>Crypto options And crypto trading with a trusted broker</h2>
+                <p className="uk-text-lead uk-visible@m">Secure and easy way to trade. <br/>230.000+ traders chose borextrade</p>
+                <a href="#" className="btn btn-outline-warning uk-border-rounded uk-visible@s">Create Free Account</a>
               </div>
             </div>
-            <div className="container-fluid">
-              <div className="row tradeWithFRow pb-4">
-                <div className="col-lg-2 col-md-4 col-sm-2 feature_div">
+            <div className="uk-width-1-2@s">
+              <img className="in-slide-img" src="/img/in-liquid-slide-3.svg" data-src="/img/in-liquid-slide-3.svg" alt="image-slide" width={500} height={400} />
+            </div>
+          </div>
+        </div>
+      </li>
+    
+    </ul>
+    {/* <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous" />
+    <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next" /> */}
+    <div className="container-fluid" style={{marginTop:"-90px"}}>
+              <div className="row tradeWithFRow pb-4" >
+             
+                <div className="col-lg-3 col-md-4 col-sm-2 feature_div ">
                   <div className="tradeFeatureBox">
-                    <div className="featureImageCircle">
-                    <img src="https://img.icons8.com/fluency/38/000000/swap.png"/>
+                    <div>
+                    <img className="in-slide-img" src="/img/icons8-clock-96.png" data-src="/img/icons8-clock-96.png" alt="image-slide" width={40} height={40} />
                     </div>
-                    <h2 className="featureTitle mt-1">Swap Free <br/>Account</h2>
-                    {/* <p className="featureText">
-                    Seamless interest-free trading.
-*Swap Free Accounts are available to all our clients
-
-                    </p> */}
+                    
+                    <p><strong>Short-Term Contracts<br/></strong><em>Trading intra-day, daily or weekly provides unique opportunities.</em></p>
+                    
+                    <p></p>
+                  
                   </div>
                 </div>
-
-                <div className="col-lg-2 col-md-4 col-sm-2 feature_div">
+                <div className="col-lg-3 col-md-4 col-sm-2 feature_div">
                   <div className="tradeFeatureBox">
-                    <div className="featureImageCircle">
-                    <img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/40/4a90e2/external-medical-support-customer-support-sbts2018-flat-sbts2018.png"/>
-                                        </div>
-                    <h2 className="featureTitle mt-1">24/5 multilingual
- <br/>    customer support  </h2>
-                    {/* <p className="featureText">
-                    Offers lowest trading cost in the market (0.0 Pips)
-to earn highest profits possible
-
-                    </p> */}
+                    <div >
+                    <img className="in-slide-img" src="/img/icons8-countdown-clock-96.png" data-src="/img/icons8-countdown-clock-96.png" alt="image-slide" width={40} height={40} />
+                    </div>
+                    <p><strong>Trading Around the Clock<br/></strong><em>24 hours a day, Sunday-Friday only.</em></p>
+                 
+                   <p></p>
                   </div>
                 </div>
-                <div className="col-lg-2 col-md-4 col-sm-2 feature_div ">
+                <div className="col-lg-3 col-md-4 col-sm-2 feature_div">
                   <div className="tradeFeatureBox">
-                    <div className="featureImageCircle">
-                    <img src="https://img.icons8.com/external-itim2101-flat-itim2101/40/4a90e2/external-secure-payment-mobile-payment-itim2101-flat-itim2101-1.png"/>
+                    <div>
+                    <img className="in-slide-img" src="/img/icons8-trading-64.png" data-src="/img/icons8-trading-64.png" alt="image-slide" width={40} height={40} />
                     </div>
-                    <h2 className="featureTitle mt-1">Secure   <br/> Trading  </h2>
-                    {/* <p className="featureText">
-                    Access to a larger portion of financial market
-& increase potential profits
-
-                    </p> */}
+                    <p><strong> Active Markets<br></br></strong><em>23 hours a day, Sunday-Friday. Whenever you want to trade.</em></p>
+                    <p></p>
+                 
                   </div>
                 </div>
-                <div className="col-lg-2 col-md-4 col-sm-2 feature_div">
+                <div className="col-lg-3 col-md-4 col-sm-2 feature_div">
                   <div className="tradeFeatureBox">
-                    <div className="featureImageCircle">
-                    <img src="https://img.icons8.com/external-flat-geotatah/40/4a90e2/external-fast-gig-economy-flat-flat-geotatah.png"/>
+                    <div >
+                    <img className="in-slide-img" src="/img/icons8-neutral-trading-96.png" data-src="/img/icons8-neutral-trading-96.png" alt="image-slide" width={40} height={40} />
                     </div>
-                    <h2 className="featureTitle mt-1">
-                    Fast
-                    <br/>Execution
-                    </h2>
-                    {/* <p className="featureText">
-                    Secure trading with NBP allows you to
-not lose more than deposited
-
-                    </p> */}
-                  </div>
-                </div>
-                <div className="col-lg-2 col-md-4 col-sm-2 feature_div">
-                  <div className="tradeFeatureBox">
-                    <div className="featureImageCircle">
-                    <img src="https://img.icons8.com/pastel-glyph/40/ffffff/lowest-price--v2.png"/>
-                    </div>
-                    <h2 className="featureTitle mt-1">
-                      Lowest <br /> Spread
-                    </h2>
-                    {/* <p className="featureText">
-                    Dedicated customer support team available
-to assist you via various contact channels
-
-                    </p> */}
-                  </div>
-                </div>
-                <div className="col-lg-2 col-md-4 col-sm-2 feature_div">
-                  <div className="tradeFeatureBox">
-                    <div className="featureImageCircle">
-                    <img src="https://img.icons8.com/officel/40/4a90e2/data-protection.png"/>
-                    </div>
-                    <h2 className="featureTitle mt-1">
-                      Negative Balance <br /> Protection
-                    </h2>
-                    {/* <p className="featureText">
-                    Dedicated customer support team available
-to assist you via various contact channels
-
-                    </p> */}
+                    <p><strong> Risk That You Define<br/></strong><em>Know your maximum potential profit or loss up front</em></p>
+                 
                   </div>
                 </div>
               </div></div>
-                    </div>
-                </div>
-            <div className="uk-section uk-section-secondary in-liquid-1">
+
+
+
+  </div>
+  
+</div>
+
+<div className="uk-section uk-section-secondary in-liquid-1">
   <div className="uk-container uk-light">
     <div className="uk-grid uk-flex uk-flex-middle">
-      <div className="uk-width-1-2@m">
-        <h2>Save time. Get <span className="in-highlight">higher return</span>. Multiply wealth.</h2>
-      </div>
-      <div className="uk-width-1-2@m">
-        <a className="uk-button uk-button-default uk-border-rounded uk-align-right@m" href="#">Find out more<i className="fas fa-angle-right uk-margin-small-left" /></a>
+      <div className="uk-text-center" style={{marginLeft:"31%"}}>
+        <h2>How it work.  <br></br><p >Start Trading in 3 Steps.</p></h2>
+        
       </div>
     </div>
     <div className="uk-child-width-1-3@m" data-uk-grid>
       <div>
-        <div className="uk-card uk-card-secondary uk-border-rounded uk-cover-container" style={{height:'485px'}}>
-          <div className="uk-card-media-top">
-            <img src="/img/5.svg" data-src="img/in-liquid-object-1.svg" alt="sample-image" data-width data-height  />
+        <div className="uk-card uk-card-secondary uk-border-rounded uk-cover-container">
+          <div className="uk-card-media-top" >
+            <img src="img/in-liquid-object-1.svg" data-src="img/in-liquid-object-1.svg" alt="sample-image" data-width data-height data-uk-img />
           </div>
           <div className="uk-card-body">
-            <h3>ECN price feed</h3>
-            <p>One price for all traders, hedge fund or individual traders. The equality of opportunity creates a level playing field.</p>
+            <h3 style={{marginTop:'50px'}}>Register</h3>
+            <p>Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
         </div>
       </div>
       <div>
-        <div className="uk-card uk-card-secondary uk-border-rounded uk-cover-container" style={{height:'485px'}}>
+        <div className="uk-card uk-card-secondary uk-border-rounded uk-cover-container">
           <div className="uk-card-media-top">
-            <img src="/img/6.svg" data-src="img/in-liquid-object-2.svg" alt="sample-image" data-width data-height  />
+            <img src="img/in-liquid-object-3.svg" data-src="img/in-liquid-object-3.svg" alt="sample-image" data-width data-height data-uk-img />
           </div>
-          <div className="uk-card-body">
-            <h3>Liquidity</h3>
-            <p>Our liquidity comes from direct connections to over 20 major liquidity providers. Achieve a fill in 1 click for EUR/USD 200 million notional in the European session.</p>
-            {/* We provide institutional liquidity for all clients */}
+          <div className="uk-card-body" style={{marginTop:'50px'}}>
+            <h3>Fund Your Account</h3>
+            <p>Login to borextrade  and make <br></br>your  deposit to  activate your<br></br> trade.</p>
           </div>
         </div>
       </div>
       <div>
-        <div className="uk-card uk-card-secondary uk-border-rounded uk-cover-container" style={{height:'485px'}}>
+        <div className="uk-card uk-card-secondary uk-border-rounded uk-cover-container">
           <div className="uk-card-media-top">
-            <img src="/img/7.svg" data-src="img/in-liquid-object-3.svg" alt="sample-image" data-width data-height  />
+            <img src="img/in-liquid-object-2.svg" data-src="img/in-liquid-object-2.svg" alt="sample-image" data-width data-height data-uk-img />
           </div>
-          <div className="uk-card-body">
-            <h3>Automated trading</h3>
-            <p>99% quality broker tick data available for free. Advanced back-testing functionality. Assistance with coding of strategies. Our liquidity & spreads optimise your automated trading results.</p>
+          <div className="uk-card-body" style={{marginTop:'50px'}}>
+            <h3>Invest</h3>
+            <p>Start getting profits to your trading account once your trade is activated.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 {/* <div className="uk-section in-liquid-14 py-0">
   <div className="uk-container mt-0 mb-0">
     <div className="uk-grid-large uk-flex uk-flex-middle" data-uk-grid>
@@ -276,272 +168,302 @@ to assist you via various contact channels
     </div>
   </div>
 </div> */}
-<div className="uk-section in-liquid-15 in-offset-top-20 uk-background-contain uk-background-bottom-center mt-4 mb-5" style={{backgroundImage:"url('/assets/images/sec_home_2_bg.png')"}} data-src="/assets/images/sec_home_2_bg.png" >
-  <div className="uk-container-fluid">
-    <div className="uk-grid uk-flex uk-flex-center">
-      <div className="uk-width-5-6@m">
-        <div className="uk-text-center">
-          <h2 className="uk-margin-remove" style={{fontSize:'42px', fontWeight:'800'}}> Market analysis and trade inspiration.</h2>
-          {/* <p className="uk-text-lead uk-text-muted uk-margin-small-top">Get news, commentary and actionable trade ideas from the expert analysts.</p> */}
-        </div>
-        <div className="uk-grid-small uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-medium-top" data-uk-grid>
-          <div className="uk-width-1-3@s">
-            <div className="uk-inline-clip">
-              <a href="/affiliate-program">
-                <img className="uk-border-ro
-unded" src="/assets/images/affilate.jpg"  data-width data-height  />
-                <div className="uk-position-bottom uk-overlay uk-overlay-primary">
-                  <h4 className="uk-margin-remove">Affiliate Program</h4>
-                  <p className="uk-margin-remove uk-text-muted" style={{fontSize:'12px'}}>As an affiliate, you don’t have to know forex or meet clients in person.</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="uk-width-1-3@s">
-            <div className="uk-inline-clip">
-              <a href="/white-label">
-                <img className="uk-border-rounded" src="/assets/images/wtl-solutions.jpg" data-width data-height  />
-                <div className="uk-position-bottom uk-overlay uk-overlay-primary">
-                  <h4 className="uk-margin-remove">White Label Solutions
-</h4>
-                  <p className="uk-margin-remove uk-text-muted" style={{fontSize:'12px'}}>Customised Forex Trading solutions for your Brokerage Firm</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="uk-width-1-3@s">
-            <div className="uk-inline-clip">
-              <a href="/introducing-broker">
-                <img className="uk-border-rounded" src="/assets/images/ti_bg12.png" data-width data-height  />
-                <div className="uk-position-bottom uk-overlay uk-overlay-primary">
-                  <h4 className="uk-margin-remove">IB Programs
-</h4>
-                  <p className="uk-margin-remove uk-text-muted" style={{fontSize:'12px'}}>As an Introducer, all you have to do is refer clients to Al Awal Markets and you will be rewarded for it.</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          {/* <div>
-            <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded">
-              <div className="uk-flex uk-flex-middle">
-                <div className="uk-margin-small-right">
-                  <i className="in-icon-wrap circle small green">FX</i>
-                </div>
-                <div>
-                  <h6 className="uk-margin-remove">Currencies (FX)
-</h6>
-                </div>
-              </div>
-              <p>Currency trading, also known as FX or forex (foreign exchange) trading, enables traders to take advantage of increases and decreases in a currency’s value.</p>
-              <a href="/trading-currencies" className="uk-button uk-button-text uk-margin-small-top" style={{color:'#2473b4'}}>Read more<i className="fas fa-angle-right uk-margin-small-left" /></a>
-            </div>
+<div className="uk-section">
+  <div className="uk-container">
+    <div className="uk-grid">
+      <div className="uk-width-2-3@m">
+        <div className="uk-grid uk-grid-small" data-uk-grid>
+          {/* <div className="uk-width-auto@m">
+            <i className="fas fa-money-bill-wave fa-2x in-icon-wrap circle large primary-color uk-margin-right" />
           </div> */}
-          {/* <div>
-            <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded">
-              <div className="uk-flex uk-flex-middle">
-                <div className="uk-margin-small-right">
-                  <i className="in-icon-wrap circle small red">Spot</i>
-                </div>
-                <div>
-                  <h6 className="uk-margin-remove">Precious Metals (Spot)
-</h6>
-                </div>
+          <div className="uk-width-expand">
+            <h3>Why Choose Us</h3>
+            <p>borextrade strives to be worthy of our client's trust by providing them with services which are economically beneficial to them and to create awareness regarding reliable and highly profitable investment platform among our clients around the globe. All you need to do is sit back and enjoy how your profit grows on a daily.</p>
+            <div className="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
+              <div>
+                <ul className="uk-list uk-list-bullet in-list-check">
+                  <li>Professional team</li>
+                  <li>Instant payments</li>
+                  <li>24/7 live support</li>
+                  <li>Great referral system</li>
+                </ul>
               </div>
-              <p>Trading precious metals is one of the most popular ways of diversifying your portfolio. Trade spot gold and spot silver prices against the US Dollar </p>
-              <a href="/precious-metals" className="uk-button uk-button-text uk-margin-small-top" style={{color:'#2473b4'}}>Read more<i className="fas fa-angle-right uk-margin-small-left" /></a>
+              <div className="in-margin-top-10@s in-margin-bottom-40@s">
+                <ul className="uk-list uk-list-bullet in-list-check">
+                  <li>DDOS security</li>
+                  <li>Unique design</li>
+                  <li>Profitable plans</li>
+                  <li>No investment contracts</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div>
-            <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded">
-              <div className="uk-flex uk-flex-middle">
-                <div className="uk-margin-small-right">
-                  <i className="in-icon-wrap circle small blue">CO</i>
-                </div>
-                <div>
-                  <h6 className="uk-margin-remove">Comodoties</h6>
-                </div>
-              </div>
-              <p>Trading CFDs on commodities like oil and gas is a great way to diversify your portfolio, and offers you access to those markets without having to purchase the product outright. </p>
-              <a href="/comodoties" className="uk-button uk-button-text uk-margin-small-top" style={{color:'#2473b4'}}>Read more<i className="fas fa-angle-right uk-margin-small-left" /></a>
-            </div>
-          </div>
-          <div>
-            <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded">
-              <div className="uk-flex uk-flex-middle">
-                <div className="uk-margin-small-right">
-                  <i className="in-icon-wrap circle small grey">CFD</i>
-                </div>
-                <div>
-                  <h6 className="uk-margin-remove">CFD Indices (Spot)
-</h6>
-                </div>
-              </div>
-              <p>An online CFD trading provides you to potentially profit or loss from the fluctuations of the price.The cost of CFD is based on the price of the underlying instrument </p>
-              <a href="/cfd-incdices" className="uk-button uk-button-text uk-margin-small-top" style={{color:'#2473b4'}}>Read more<i className="fas fa-angle-right uk-margin-small-left" /></a>
-            </div>
-          </div>*/}
         </div>
+      </div>
+      <div className="uk-width-1-3@m">
+      <img className="in-slide-img" src="/img/in-liquid-slide-2.svg" data-src="/img/in-liquid-slide-2.svg" alt="image-slide" width={500} height={400} />
       </div>
     </div>
   </div>
 </div>
+
 
 <div className="uk-section uk-section-secondary in-liquid-10">
   <div className="uk-container uk-light">
     <div >
-      <div className='row'>
-        <div className='col-md-6'>
-            <h2>Discover our exciting </h2>
-            <h2>Offers and amazing</h2>
-            <h1 style={{color:'#2473b4'}}> Promotions of 2022</h1>
-            <a className="uk-button uk-button-default uk-border-rounded uk-margin-top" href="/no-deposit">Learn More<i className="fas fa-angle-right uk-margin-small-left" /></a>
+        <div className='col-md-6' style={{marginLeft:'32%'}}>
+            <h2>Crypto Market Analysis</h2>
         </div>
-        <div className='col-md-6'>
-            <img src='/assets/images/promotionsectionhome.svg' style={{width:'100%'}} />
+      <iframe src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=6&pref_coin_id=1505&graph=yes" width={1170} height={420} style={{border: 0}}/>
+    </div>
+  </div>
+</div>
+{/* //////////////////////////////// */}
+<div className="uk-section uk-section-secondary in-liquid-10" >
+  <div className="uk-container uk-light">
+    <div className="uk-grid-medium uk-child-width-1-4@m uk-flex uk-flex-middle"  data-uk-grid>
+      <div>
+        <h2>Trade types</h2>
+        <p className="font-italic">Explore different trade types to trade on your preferred market.</p>
+        {/* <a className="uk-button uk-button-default uk-border-rounded uk-margin-top" href="#">Start trading<i className="fas fa-angle-right uk-margin-small-left" /></a> */}
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          <img className="uk-margin-small-bottom" src="img/in-liquid-icon-16.svg" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width={72} height={72} />
+          <h3 className="uk-margin-top">Forex</h3>
+          <p>Explore and trade CFDs on <br/>  major,minor, and exotic  currency pairs<br/> with efficient <br></br>  spreads.</p>
+        </div>
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          <img className="uk-margin-small-bottom" src="img/in-liquid-icon-17.svg" data-src="img/in-liquid-icon-17.svg" alt="wave-award" width={72} height={72}/>
+          <h3 className="uk-margin-top">CFD STOCK</h3>
+          <p>Trade CFDs on <br></br>stocks  of leading companies  and industry giants  <br></br> without actually<br></br> owning them</p>
+        </div>
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          <img className="uk-margin-small-bottom" src="img/in-liquid-icon-18.svg" data-src="img/in-liquid-icon-18.svg" alt="wave-award" width={72} height={72} />
+          <h3 className="uk-margin-top">Indices</h3>
+          <p>Select from a list of CFDs on widely traded indices representing a particular market sector or national economy.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div className="uk-section in-liquid-7 in-offset-top-10">
+
+{/* //////////////////////////////////////////////// */}
+
+
+<div className="uk-section">
   <div className="uk-container">
-    <div className="uk-grid uk-flex uk-flex-center">
-      <div className="uk-width-5-6@m uk-background-contain uk-background-center-center" style={{backgroundImage: 'url(img/in-liquid-7-bg.png)'}} data-uk-img>
-        <div className="uk-text-center">
-          <h2 className="uk-margin-remove">Why SMART TRADERS Choose Us?</h2>
-          {/* <p className="uk-text-lead uk-text-muted uk-margin-small-top">Improve your trading results with our industry-leading technology</p> */}
+    <div className="uk-grid uk-flex uk-flex-middle" data-uk-grid>
+      <div className="uk-width-expand@m">
+        <h2>Bitcoin Currency Converter</h2>
+        <p>Bitcoin is a form of digital currency, created and held electronically. No one controls it. Bitcoins aren’t printed, like dollars or euros – they’re produced by people, and increasingly businesses, running computers all around the world.</p>
+        <div className="uk-grid-medium uk-child-width-1-3@s uk-child-width-1-3@m uk-margin-medium" data-uk-grid>
+     <div className="form-group row">
+  <div className="col-xs-3">
+    {/* <label htmlFor="ex1">col-xs-2</label> */}
+    <input className="form-control" id="ex1" type="text" />
+  </div>
+</div>
+<div className="form-group row">
+  <div className="col-xs-3">
+    {/* <label htmlFor="ex1">col-xs-2</label> */}
+    <input className="form-control" id="ex1" type="text" />
+  </div>
+  </div>
+  <div className="col-xs-3">
+    {/* <label htmlFor="ex1">col-xs-2</label> */}
+    <p><h5>=</h5></p>
+  </div>
+    <div className="form-group row">
+   
+  <div className="col-xs-3">
+    {/* <label htmlFor="ex1">col-xs-2</label> */}
+    <input className="form-control" id="ex1" type="text" />
+  </div>
+  </div>
         </div>
-        {/* <div className="uk-grid-medium uk-child-width-1-3@s uk-child-width-1-3@m uk-text-center uk-margin-top" data-uk-grid>
-          <div>
-            <img src="img/in-lazy.gif" data-src="img/in-liquid-award.svg" alt="wave-award" width={71} height={58} data-uk-img />
-            <h6 className="uk-margin-small-top uk-margin-remove-bottom">Best CFD Broker</h6>
-            <p className="uk-text-small uk-margin-remove-top">TradeON Summit 2020</p>
-          </div>
-          <div>
-            <img src="img/in-lazy.gif" data-src="img/in-liquid-award.svg" alt="wave-award" width={71} height={58} data-uk-img />
-            <h6 className="uk-margin-small-top uk-margin-remove-bottom">Best Execution Broker</h6>
-            <p className="uk-text-small uk-margin-remove-top">Forex EXPO Dubai 2020</p>
-          </div>
-          <div>
-            <img src="img/in-lazy.gif" data-src="img/in-liquid-award.svg" alt="wave-award" width={71} height={58} data-uk-img />
-            <h6 className="uk-margin-small-top uk-margin-remove-bottom">Best Trading Platform</h6>
-            <p className="uk-text-small uk-margin-remove-top">London Summit 2020</p>
-          </div>
-        </div> */}
-        <img className="uk-align-center" src="/img/graph-devices.png" data-src="img/in-liquid-7-mockup.png" alt="sample-images" width={691} height={420}  />
-        <div className="uk-grid-divider uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center in-offset-top-10" data-uk-grid>
-          <div>
-            <h2 className="uk-margin-small-bottom">~0.01 lot
-</h2>
-            <p className="uk-text-small uk-text-uppercase uk-margin-remove-top">Minimum lot size
-</p>
-          </div>
-          <div>
-            <h2 className="uk-margin-small-bottom">$10
-</h2>
-            <p className="uk-text-small uk-text-uppercase uk-margin-remove-top">Minimum Deposit</p>
-          </div>
-          <div>
-            <h2 className="uk-margin-small-bottom">Upto 1:500
-</h2>
-            <p className="uk-text-small uk-text-uppercase uk-margin-remove-top">Leverage</p>
-          </div>
-          <div>
-            <h2 className="uk-margin-small-bottom">0.1
-</h2>
-            <p className="uk-text-small uk-text-uppercase uk-margin-remove-top">ECN Spreads from 0.1 pips
-</p>
-          </div>
-        </div>
-        <div className="uk-text-center uk-margin-medium-top">
-          <a className="uk-button uk-button-primary uk-border-rounded uk-margin-small-right" href="#">Create account<i className="fas fa-angle-right uk-margin-small-left" /></a>
-          <a className="uk-button uk-button-default uk-border-rounded" href="#">Discover platform<i className="fas fa-angle-right uk-margin-small-left" /></a>
-        </div>
+      </div>
+      <div className="uk-width-3-5@m uk-inline uk-dark">
+        <img src="img/in-liquid-slide-1.svg" data-src="img/in-liquid-slide-1.svg" alt="sample-image" data-width data-height data-uk-img style={{width:"100%"}} />
+       
       </div>
     </div>
   </div>
 </div>
-<div className="uk-section uk-section-muted in-liquid-5 uk-background-contain uk-background-top-center in-offset-bottom-40" style={{backgroundImage: 'url(img/in-liquid-5-bg.png)'}}>
-  <div className="uk-container">
-    <div className="uk-grid uk-flex uk-flex-center">
-      <div className="uk-width-5-6@m">
-        <div className="uk-text-center">
-          <h4>Payment methods.</h4>
-        </div>
-        <div className="uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-6@m uk-text-center uk-margin-medium in-client-logo-6" data-uk-grid>
-        <div className="col-md-12 col-sm-12">
-            <div className=" row paymentFlex">
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/payment1.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/payment2.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/payment3.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/payment4.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/payment5.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/payment6.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/payment7.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/localbank.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
-              <div className=" ">
-                <img
-                  className="fitImage paymentImage"
-                  src="/assets/images/paytrust.png"
-                  alt="paymentImage"
-                ></img>
-              </div>
+
+{/* /////////////////////////////////////////////////////////// */}
+
+<div className="uk-section uk-section-secondary in-liquid-10" >
+  <div className="uk-container uk-light">
+  {/* <div className="uk-section"> */}
+    {/* <div className="uk-container"> */}
+      <div className="uk-grid uk-flex uk-flex-center">
+        <div className="uk-width-3-4@m">
+          <div data-uk-grid>
+            <div className="uk-width-1-2@s uk-width-2-3@m" style={{marginLeft:'15%', textAlign:"center"}}>
+              <h2 className="uk-margin-remove">INVESTMENT PLANS</h2>
+              <p className="font-italic">Choose your preferable plan for investment</p>
             </div>
           </div>
         </div>
-
+      </div>
+    {/* </div> */}
+  {/* </div> */}
+    <div className="uk-grid-medium uk-child-width-1-3@m uk-flex uk-flex-middle"  data-uk-grid>
+    <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          {/* <img className="uk-margin-small-bottom" src="img/in-liquid-icon-16.svg" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width={72} height={72} /> */}
+          <h3 className="uk-margin-top">INVEST <br/>INTO STANDARD <br/>PACKAGE</h3>
+          <p>STARTING AT <br/><h4>1,000 - 4,999</h4><br/>Trade Time = 10 days<br/>Interest = 55% <br/></p>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block">START INVESTING</button>
+        </div>
+       
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          {/* <img className="uk-margin-small-bottom" src="img/in-liquid-icon-16.svg" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width={72} height={72} /> */}
+          <h3 className="uk-margin-top">INVEST<br/> INTO CLASSIC <br/>PACKAGE</h3>
+          <p>STARTING AT <br/><h4>5,000 - 9,999</h4><br/>Trade Time = 15 days<br/>Interest = 60% <br/></p>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block">START INVESTING</button>
+        </div>
+        
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          {/* <img className="uk-margin-small-bottom" src="img/in-liquid-icon-16.svg" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width={72} height={72} /> */}
+          <h3 className="uk-margin-top">INVEST <br/> INTO GOLD <br/>PACKAGE</h3>
+          <p>STARTING AT <br/><h4>10,000 - 49,999</h4><br/>Trade Time = 20 days<br/>Interest = 75% <br/></p>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block">START INVESTING</button>
+        </div>
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          {/* <img className="uk-margin-small-bottom" src="img/in-liquid-icon-16.svg" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width={72} height={72} /> */}
+          <h3 className="uk-margin-top">INVEST<br/> INTO LONG <br/>TERM PACKAGE</h3>
+          <p>STARTING AT <br/><h4>15,000 - 1,000,000</h4><br/>Trade Time = 90 days<br/>Interest = 85% <br/></p>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block">START INVESTING</button>
+        </div>
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          {/* <img className="uk-margin-small-bottom" src="img/in-liquid-icon-16.svg" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width={72} height={72} /> */}
+          <h3 className="uk-margin-top">INVEST <br/>INTO PREMIUM <br/>PACKAGE</h3>
+          <p>STARTING AT <br/><h4>50,000 - 99,999</h4><br/>Trade Time = 30 days<br/>Interest = 90% <br/></p>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block">START INVESTING</button>
+        </div>
+      </div>
+      <div>
+        <div className="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-text-center">
+          {/* <img className="uk-margin-small-bottom" src="img/in-liquid-icon-16.svg" data-src="img/in-liquid-icon-16.svg" alt="wave-award" width={72} height={72} /> */}
+          <h3 className="uk-margin-top">INVEST <br/>INTO STANDARD<br/> PACKAGE</h3>
+          <p>STARTING AT <br/><h4>100,000 - 300,999</h4><br/>Trade Time = 50 days<br/>Interest = 100% <br/></p>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block">START INVESTING </button>
+        </div>
       </div>
     </div>
   </div>
 </div>
+{/* /////////////////////////////////////////////// */}
+
+  
+
+
+
+
+    {/* ////////////////////////////////////////////////////// */}
+
+
+
+
+  <div className="uk-section uk-section-secondary in-footer-feature">
+  <div className="uk-container">
+    <div className="uk-grid uk-flex uk-flex-center">
+      <div className="uk-width-5-6@m">
+        <div className="uk-grid uk-child-width-1-3@s" data-uk-grid>
+          <div className="uk-flex uk-flex-middle">
+            <div className="uk-margin-right">
+              <i className="fas fa-address-card in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">Quick funds access</h6>
+            </div>
+          </div>
+          <div className="uk-flex uk-flex-middle uk-flex-center@m">
+            <div className="uk-margin-right">
+              <i className="fas fa-mobile in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">Trade on the go</h6>
+            </div>
+          </div>
+          <div className="uk-flex uk-flex-middle uk-flex-right@m">
+            <div className="uk-margin-right">
+              <i className="fas fa-credit-card in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">Industry-best payouts</h6>
+            </div>
+          </div>
+          
+        </div>
+
+        <div className="uk-grid uk-child-width-1-3@s" data-uk-grid>
+          <div className="uk-flex uk-flex-middle">
+            <div className="uk-margin-right">
+              <i className="fas fa-lock in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">Segregated funds</h6>
+            </div>
+          </div>
+          <div className="uk-flex uk-flex-middle uk-flex-center@m">
+            <div className="uk-margin-right">
+              <i className="fas fa-headphones in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">Amazing support</h6>
+            </div>
+          </div>
+          <div className="uk-flex uk-flex-middle uk-flex-right@m">
+            <div className="uk-margin-right">
+              <i className="fas fa-id-badge in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">Licensed in Australia</h6>
+            </div>
+          </div>
+          
+        </div>
+        <div className="uk-grid uk-child-width-1-3@s" data-uk-grid>
+          <div className="uk-flex uk-flex-middle">
+            <div className="uk-margin-right">
+              <i className="fas fa-hand-holding-usd in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">$50 Cashback for new accounts</h6>
+            </div>
+          </div>
+          <div className="uk-flex uk-flex-middle uk-flex-center@m">
+            <div className="uk-margin-right">
+              <i className="fas fa-thumbs-up in-icon-wrap" />
+            </div>
+            <div>
+              <h6 className="uk-margin-remove">Options specialists</h6>
+            </div>
+          </div>
+        
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
 
             </div>
         );

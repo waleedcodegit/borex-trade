@@ -177,7 +177,7 @@ class Landing extends Component {
             <i className="fas fa-money-bill-wave fa-2x in-icon-wrap circle large primary-color uk-margin-right" />
           </div> */}
           <div className="uk-width-expand">
-            <h3>Why Choose Us</h3>
+            <h2>Why Choose Us</h2>
             <p>borextrade strives to be worthy of our client's trust by providing them with services which are economically beneficial to them and to create awareness regarding reliable and highly profitable investment platform among our clients around the globe. All you need to do is sit back and enjoy how your profit grows on a daily.</p>
             <div className="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
               <div>

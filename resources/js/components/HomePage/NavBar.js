@@ -17,7 +17,7 @@ class NavBar extends Component {
                                         {/* logo end */}
                                         {/* navigation begin */}
                                         <ul className="uk-navbar-nav ">
-                                            <li><a href="index-2.html">HOME</a>
+                                            <li><a href="/">HOME</a>
                                                 {/* <div className="uk-navbar-dropdown">
                                                     <ul className="uk-nav uk-navbar-dropdown-nav">
                                                         <li><a href="homepage2.html">Homepage 2</a></li>
@@ -26,17 +26,17 @@ class NavBar extends Component {
                                                     </ul>
                                                 </div> */}
                                             </li>
-                                            <li><a href="markets.html">ABOUT US</a></li>
-                                            <li><a href="#">LEGAL<i className="fas fa-chevron-down" /></a>
+                                            <li><a href="/about-us">ABOUT US</a></li>
+                                            <li><a href="/">LEGAL<i className="fas fa-chevron-down" /></a>
                                                 <div className="uk-navbar-dropdown">
                                                     <ul className="uk-nav uk-navbar-dropdown-nav">
-                                                        <li><a href="about.html">TERMS AND CONDITIONS</a></li>
+                                                        <li><a href="/">TERMS AND CONDITIONS</a></li>
                                                         <li><a href="blog-list.html">FAQs</a></li>
                                                        
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li><a href="education.html">START GUIDE</a></li>
+                                            <li><a href="/">START GUIDE</a></li>
                                             <li><a href="#">CONTACT US</a>
                                                 {/* <div className="uk-navbar-dropdown uk-navbar-dropdown-width-2">
                                                     <div className="uk-navbar-dropdown-grid uk-child-width-1-2" data-uk-grid>

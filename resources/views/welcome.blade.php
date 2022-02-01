@@ -9,13 +9,13 @@
     <!-- Canonical Tags -->
 
     <!-- frontend_index_index -->
-    <title>Al-Awal</title>
+    <title>Borex Trade</title>
 
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="thumbnail" content="/img/favicon.png" />
-    <link rel="shortcut icon" href="/img/favicon.png">
-    <title>Al Awal Market</title>
+    <meta name="thumbnail" content="/img/logo (1).png" />
+    <link rel="shortcut icon" href="/img/logo (1).png">
+    <title>Borex Trade</title>
     <!-- Font Awesome -->
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">

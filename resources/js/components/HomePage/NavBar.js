@@ -36,7 +36,7 @@ class NavBar extends Component {
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li><a href="/">START GUIDE</a></li>
+                                            <li><a href="#">START GUIDE</a></li>
                                             <li><a href="#">CONTACT US</a>
                                                 {/* <div className="uk-navbar-dropdown uk-navbar-dropdown-width-2">
                                                     <div className="uk-navbar-dropdown-grid uk-child-width-1-2" data-uk-grid>

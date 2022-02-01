@@ -14,8 +14,8 @@
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="thumbnail" content="/img/logo (1).png" />
-    <link rel="shortcut icon" href="/img/logo (1).png">
-    <title>Borex Trade</title>
+    {{-- <link rel="shortcut icon" href="/img/logo (1).png"> --}}
+    {{-- <title>Borex Trade</title> --}}
     <!-- Font Awesome -->
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">

@@ -214,7 +214,7 @@ class Landing extends Component {
         <div className='col-md-6' style={{marginLeft:'32%'}}>
             <h2>Crypto Market Analysis</h2>
         </div>
-      <iframe src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=6&pref_coin_id=1505&graph=yes" width={1170} height={420} style={{border: 0}}/>
+      <iframe src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=6&pref_coin_id=1505&graph=yes"  height={420} style={{border: 0, width:'100%'}}/>
     </div>
   </div>
 </div>
